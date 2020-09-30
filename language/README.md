@@ -1,19 +1,20 @@
 # A Linguagem Cminus (ou C-)
 
-The C- language specification is excerpted  and adapted from the book Compiler Construction Principles And Practice by Kenneth Louden. The language includes integer variables, functions, and arrays. It has local and global declarations and supports conditions (if-statement) and repetitions (while-statement), as well as supports recursive function calls. It is essentially a subset of C, but is missing some more advanced features, hence its name.
-
+A especificação da linguagem C- foi extraída e adaptada a partir do livro  "Compiler Construction Principles And Practice" by Kenneth Louden. 
+A linguagem inclui variáveis inteiras, funções e arrays. Ela possui declarações locais e globais e suporta comandos condicionais (_if-statement_) e comandos de repetição (_while-statement_), bem como chamadas de função recursivas. A linguagem C- tem esse nome porque é um pequeno subconjunto da linguagem C.
 Below you can find the lexical conventions, syntax and semantics description of the language.
 
-## Lexical Conventions
+## Convenções Léxicas
 
 ## Syntax
 
 ## Semantics
 
-## Sample Programs
+## Programas em C-
 
-### Sample Program 1
-The following is a program that inputs two integers, computes their greatest common divisor, and prints it:
+### Programa 1
+
+O programa a seguir recebe dois valores inteiros, calcula o máximo divisor comum entre eles e imprime o resultado na saída.
 
 ```
 /* A program to perform Euclid's
@@ -51,97 +52,62 @@ void main(void)
 }
 ```
 
-### Sample Program 2
-The following is a program that inputs a list of 10 integers, sorts them by selection sort, and outputs them again:
+### Programa 2
+O programa abaixo recebe como entrada uma lista de 10 valores inteiros, ordena usando _selection sort_, e imprime a lista ordenada na saída.
 
 ```
 /* A program to perform selection sort on a 10 element array */
 
-
-
 int x[10];
 
-
-
 int minloc(int a[], int low, int high) {
-
     int i; int x; int k;
-
     k = low;
-
     x = a[low];
-
     i = low + 1;
 
     while (i < high) {
-
         if (a[i] < x) {
-
             x = a[i];
-
             k = i;
-
         }
-
         i = i + 1;
-
     }
-
     return k;
 
 }
 
 void sort(int a[], int low, int high) {
-
     int i;
-
     int k;
-
     i = low;
 
     while (i < high - 1) {
-
         int t;
-
         k = minloc(a, i, high);
-
         t = a[k];
-
         a[k] = a[i];
-
         a[i] = t;
-
         i = i + 1;
-
     }
-
 }
 
 void main(void) {
-
     int i;
-
     i = 0;
 
     while (i < 10) {
-
         x[i] = input();
-
         i = i + 1;
-
     }
 
     sort(x, 0, 10);
-
+    
     i = 0;
-
     while (i < 10) {
-
         output(x[i]);
-
         i = i + 1;
-
     }
-
-```
 }
+```
+
