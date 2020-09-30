@@ -9,8 +9,10 @@ Base da disciplina de Compiladores usada para instanciar novos semestres letivos
 MATA61 - Compiladores é uma disciplina que visa apresentar conceitos básicos sobre projeto e implementação de compiladores e desenvolver, ao longo do semestre, o projeto de um compilador para uma linguagem simples.
 
 + [Informação sobre o Curso](./courseinformation/README.md)
-+ [Agenda](./schedule/README.md)
-+ [Exercícios](./assignments/README.md)
++ Agenda: consultar __MATA61_SLS_2020__ no [Classroom da UFBA](https://gsuite.google.com/dashboard)
++ Exercícios
+  + Exercícios individuais: consultar __MATA61_SLS_2020__ no [Classroom da UFBA](https://gsuite.google.com/dashboard)
+  + [Outros exercícios](./assignments/README.md)
 + [Projeto do Compilador](./compilerproject/README.md)
 + [Cminus](./language/README.md)
 + [Recursos](./resources/README.md)
@@ -18,3 +20,4 @@ MATA61 - Compiladores é uma disciplina que visa apresentar conceitos básicos s
 -----
 
 + [DCC-UFBA](http://www.dcc.ufba.br)
+
