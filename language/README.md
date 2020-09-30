@@ -6,9 +6,9 @@ Below you can find the lexical conventions, syntax and semantics description of 
 
 ## Convenções Léxicas
 
-## Syntax
+## Sintaxe
 
-## Semantics
+## Semântica
 
 ## Programas em C-
 
@@ -18,37 +18,23 @@ O programa a seguir recebe dois valores inteiros, calcula o máximo divisor comu
 
 ```
 /* A program to perform Euclid's
-
    Algorithm to compute gcd. */
 
-
-
-int gcd (int u, int v)
-
-{
-
-    if (v == 0) return u ;
-
-    else return gcd(v,u-u/v*v);
+int gcd (int u, int v) {
+    if (v == 0) 
+      return u ;
+    else 
+      return gcd(v,u-u/v*v);
 
     /* u-u/v*v == u mod v */
-
 }
 
-
-
-void main(void) 
-
-{ 
-
+void main(void) { 
    int x; int y;
-
    x = input(); 
-
    y = input();
 
    output(gcd(x, y)) ;
-
 }
 ```
 
