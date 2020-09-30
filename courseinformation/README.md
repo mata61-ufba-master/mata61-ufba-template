@@ -28,16 +28,16 @@ Uso de vídeo-aula expositiva, fórum de discussão, estudo dirigido, trabalhos 
 
 ## Tópicos
 
-1 Lexical analysis and Finite Automata (scanning)
-2 Syntactical analysis (parsing) using Top-down and Bottom-up approaches
-3 Program representation in Abstract Syntax Trees (AST)
-4 Symbol tables and scope rules for C-like languages
-5 Type-checking for C-like languages
-6 Different forms of intermediate code (IR)
-7 Local/Global code optimization
-8 Call stacks and activation records
-9 Code generation for RISC-like machines
-10 Basic blocks, control-flow graphs, liveness analysis, register allocation
+1. Análise léxica e autômatos finitos (_scanning_)
+2. Análise sintática (_parsing_) com abordagens _top-down_ e _bottom-up_
+3. Representação de programas com árvores sintáticas abstratas (_Abstract Syntax Trees (AST)_)
+4. Tabela de símbolos e regras de escopo para linguagens _C-like_
+5. Verificação de tipos para linguagens _C-like_
+6. Código intermediário (_intermediate code (IR)_)
+7. Otimização local e global
+8. Pilhas e registros de ativação
+9. Geração de código
+<!--10. Basic blocks, control-flow graphs, liveness analysis, register allocation -->
 
 ## Avaliação de Aprendizagem
 
@@ -95,16 +95,3 @@ Seções de Capítulos: 8.8, e 7.5-7.7
 
 + LOUDEN, K. C.. Compiladores: Princípios e Práticas. Editora Thompson Pioneira, 1a edição, 2004.
 + RICARTE, I. Introdução à Compilação, Editora Campus, 2008.
-
-## Links
-
-### Sobre github
-
-+ [Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
-+ [Try Git](https://try.github.io/levels/1/challenges/1)
-
-### Sobre markdown
-
-+ [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
-+ [The Ultimate Guide to Markdown](https://blog.ghost.org/markdown/)
-+ [Markdown and including multiple files](https://stackoverflow.com/questions/4779582/markdown-and-including-multiple-files)
