@@ -1,11 +1,9 @@
-# A Linguagem Cminus (ou C-)
+# A Linguagem C-
 
-A especificação da linguagem C- foi extraída e adaptada a partir do livro  "Compiler Construction Principles And Practice" by Kenneth Louden. 
+A especificação da linguagem Cminus ou C- foi extraída e adaptada a partir do livro  "Compiler Construction Principles And Practice" de Kenneth Louden. 
 A linguagem inclui variáveis inteiras, funções e arrays. Ela possui declarações locais e globais e suporta comandos condicionais (_if-statement_) e comandos de repetição (_while-statement_), bem como chamadas de função recursivas. A linguagem C- tem esse nome porque é um pequeno subconjunto da linguagem C.
 
 ## Convenções Léxicas
-
-Here we list the lexical conventions of the language, including a description of the tokens of the language:
 
 1. Palavras-chave (_keywords_)
 
@@ -35,11 +33,11 @@ As palavras-chave são reservadas e devem ser escritam em letras minúsculas.
 
 Carateres minúsculos e maiúsculos são diferenciados.
 
-4. Caracteres de espacejamento (_white space_) dincluem _blanks_ (' '), _newlines_ ('\n'), e _tabs_ ('\t). Tais caracteres devem ser ignorados exceto quando separam  ID, NUM e palavras-chave.
+4. Caracteres de espacejamento (_white space_) incluem _blanks_ (' '), _newlines_ ('\n'), e _tabs_ ('\t'). Tais caracteres devem ser ignorados exceto quando separam  ID, NUM e palavras-chave.
 
 5. Comentários são  utilizam a notação  ``` /* … */```. 
 Comentários podem ser colocados em qualquer local em que caracteres de espacejamento (_white spaces_) podem aparecer (isto é, comentários não podem ser colocados dentro de _tokens_), podem ser estender por mais de uma linha e não podem ser aninhados.
-Comentários de uma linha (_single-line comments_, using "//", não são suportados.
+Comentários de uma linha (_single-line comments_) que utilizam "//" não são suportados.
 
 ## Sintaxe
 
@@ -132,3 +130,5 @@ void main(void) {
 }
 ```
 
+-----
+Material cedido pelo Prof. Vinicius.
