@@ -20,4 +20,5 @@ MATA61 - Compiladores é uma disciplina que visa apresentar conceitos básicos s
 -----
 
 + [DCC-UFBA](http://www.dcc.ufba.br)
++ [UFBA em Movimento](https://ufbaemmovimento.ufba.br/)
 
